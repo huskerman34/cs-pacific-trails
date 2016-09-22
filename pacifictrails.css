@@ -1,0 +1,36 @@
+body {background-image: linear-gradient(to bottom, #ffffff, #90c7e3);background-repeat: no-repeat;}
+h1 {background-color: #000033;}
+nav {background-color: #ffffff; text-align: center; padding: 10px;}
+h2 {color: #3399CC;}
+dt {color: #000033;}
+b {color: #5C7FA3;}
+.resort {color:#5C7FA3;}
+
+nav {font-weight: bold;}
+a  {text-decoration: none}
+
+h2 {font-family:Georgia;}
+h3 {font-family: serif;}
+h1 {background-image: url(images/sunset.jpg); background-position: right; background-repeat: no-repeat; height: 60px;text-align: center; padding-top: 15px; font-family: sans-serif; color: #FFFFFF;}
+footer {font-size: 75%; font-style: italic; text-align: center; font-family: sans-serif; }
+.resort {font-weight: bold;}
+#contact {font-size: 90%; letter-spacing: normal;}
+h1 {margin-bottom: 0;}
+ul {list-style-image: url(images/marker.gif);}
+a {text-align: center;}
+main {padding-top: 1px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px;}
+#wrapper {margin-left: auto; margin-right: auto; width: 80%; background-color: white; min-width: 960px; max-width: 2048px; box-shadow: 3px 3px 3px #333333;}
+h2 {text-shadow: 1px 1px 1px #CCCCCC;}
+footer {padding: 20px;}
+#homehero {background-image:url(images/coasthero.jpg);height: 300px; background-size: 100% 100%; background-repeat: no-repeat;}
+#yurthero {background-image: url(images/yurthero.jpg);height: 300px; background-size: 100% 100%; background-repeat: no-repeat;}
+#trailhero {background-image:url(images/trailhero.jpg); height: 300px; background-size: 100% 100%; background-repeat: no-repeat;}
+
+
+
+
+
+
+
+
+
