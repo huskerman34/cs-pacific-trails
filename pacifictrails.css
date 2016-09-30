@@ -5,16 +5,9 @@ body {
     background-repeat: no-repeat;
 }
 
-
 nav {
-    list-style-type: none;
-    margin: 0;
-    padding-left: 0;
-    font-size 1.2em;
-    font-weight: bold;
-    float: left;
-    width: 160px;
     padding: 20px;
+    float: left;
 }
 
 h2 {
@@ -35,13 +28,9 @@ b {
     color: #5C7FA3;
 }
 
-
-
 a {
-    text-decoration: none
+    text-align: center;
 }
-
-
 
 h3 {
     font-family: serif;
@@ -56,7 +45,8 @@ h1 {
     padding-top: 15px;
     font-family: sans-serif;
     color: #FFFFFF;
-    background-color: #000033; margin-top: 0;
+    background-color: #000033;
+    margin-top: auto;
 }
 
 footer {
@@ -78,23 +68,22 @@ footer {
     letter-spacing: normal;
 }
 
-
-
 ul {
     list-style-type: none;
 }
 
-a {
-    text-align: center;
-}
-
 main {
+    padding-top: 1px;
+    padding-right: 20px;
+    padding-bottom: 20px;
     background-color: white;
     margin-left: 190px;
     padding-left: 30px;
 }
+
 #wrapper {
     margin-right: auto;
+    margin-left: auto;
     width: 80%;
     background-color: #90c7e3;
     min-width: 960px;
@@ -102,23 +91,12 @@ main {
     box-shadow: 3px 3px 3px #333333;
 }
 
-Nav a: homehero {
-    margin-left: 190px;
-}
-
-Nav a: yurthero {
-    margin-left: 190px;
-}
-
-Nav a: trailhero {
-    margin-left: 190px;
-}
-
-#homehero { 
+#homehero {
     background-image: url(images/coasthero.jpg);
     height: 300px;
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    margin-left: 190px;
 }
 
 #yurthero {
@@ -126,6 +104,7 @@ Nav a: trailhero {
     height: 300px;
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    margin-left: 190px;
 }
 
 #trailhero {
@@ -133,4 +112,12 @@ Nav a: trailhero {
     height: 300px;
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    margin-left: 190px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    font-size: 1.2em;
 }
