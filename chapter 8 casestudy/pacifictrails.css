@@ -122,5 +122,88 @@ nav a {
     padding: 0;
     font-weight: bold;
 }
+header,
+main,
+nav,
+footer,
+section,
+article {
+    display: block;
+}
+@media only screen and (max-width 64em) {
+    main {
+        background-color: #ffffff;
+        margin: 0;
+    }
+    
+    #wrapper {
+        min-width: 0;
+        width: auto;
+        box-shadow: none;
+    }
+    
+    main {
+        margin-left: 0;
+    }
+    
+    Nav {
+        float: none;
+        width: auto;
+        text-align-last: center;
+        padding: 0.5em;
+    }
+    
+    nav li {
+        display: inline;
+        padding-top: 0.25em;
+        padding-bottom: 0.25em;
+        padding-right: .75em;
+        padding-left: .75em;
+    }
+    
+    #homehero,
+    #yurtshero,
+    #trailhero {
+        margin-left: 0;
+        height: 200px;
+    }
+    
+    footer {
+        margin-left: 0;
+    }
+}
 
-header, main, nav, footer,  section, article {display:block;}
+@media only screen and (max-width 37.5em) {
+    header {
+        padding-top: 1em;
+    }
+    main {
+        padding-top: 0.1em;
+        padding-left: 0.1em;
+        padding-right: 1em;
+        font-size: 90%;
+    }
+    h1 {
+        font-size 1.5em;
+    }
+    nav {
+        padding: 0;
+    }
+    nav li {
+        display: inline;
+        margin: 0;
+        border-bottom-style: solid;
+        2px;
+        border-bottom-color: #330000;
+    }
+    nav a {
+        display: block;
+    }
+    #homehero,
+    #yurtshero,
+    #trailhero {
+       display: none;
+        background-image: none;
+        height: 0;
+    }
+}
