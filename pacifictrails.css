@@ -4,7 +4,7 @@ body {
     background-image: linear-gradient(to bottom, #ffffff, #4f6d93);
     background-repeat: no-repeat;
 }
-        nav {
+nav {
     width: 160px;
     float: left;
     padding: 20px;
@@ -39,11 +39,11 @@ h1 {
 header {
     height: 60px;
     text-align: center;
-    padding-top: 0px;
+    padding-top: 15px;
     font-family: sans-serif;
     color: #FFFFFF;
     background-color: #000033;
-    margin-top:15px;
+    margin-top: 15px;
 }
 footer {
     background-color: #ffffff;
@@ -66,12 +66,11 @@ ul {
 main {
     background-color: #ffffff;
     margin-left: 190px;
-    padding-left:0px;
+    padding-left: 0px;
     padding-top: 0px;
     padding-right: 0px;
     padding-bottom: 20px;
 }
-
 #wrapper {
     margin-right: auto;
     margin-left: auto;
@@ -99,14 +98,12 @@ main {
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
-    nav ul {
+nav ul {
     list-style-image: none;
     list-style-type: none;
     margin: 0;
     padding-left: 0;
     font-size: 1.0em;
-    
-   
 }
 nav a:link {
     color: #000033;
@@ -120,7 +117,8 @@ nav a:hover {
 nav a {
     text-decoration: none;
     padding: 0;
-    font-weight: bold;}
+    font-weight: bold;
+}
 header,
 main,
 nav,
@@ -129,8 +127,7 @@ section,
 article {
     display: block;
 }
-
-@media only screen and (max-width 64em) {
+@media only screen and (max-width: 64em) {
     main {
         background-color: #ffffff;
         margin: 0;
@@ -163,9 +160,9 @@ article {
         height: 200px;
     }
 }
-@media only screen and (max-width 37.5em) {
-    header {
-        padding top: 1em;
+@media only screen and (max-width: 37.5em) {
+    header { padding-top: 0;
+        
     }
     main {
         padding-top: 0.1em;
@@ -192,5 +189,5 @@ article {
     #trailhero {
         background-image: none;
         height: 0;
-    } 
+    }
 }
