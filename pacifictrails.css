@@ -39,7 +39,7 @@ h1 {
 header {
     height: 60px;
     text-align: center;
-    padding-top: 0px;
+    padding-top: 15px;
     font-family: sans-serif;
     color: #FFFFFF;
     background-color: #000033;
@@ -130,7 +130,7 @@ article {
     display: block;
 }
 
-@media only screen and (max-width 64em) {
+@media only screen and (max-width: 64em) {
     main {
         background-color: #ffffff;
         margin: 0;
@@ -163,9 +163,9 @@ article {
         height: 200px;
     }
 }
-@media only screen and (max-width 37.5em) {
+@media only screen and (max-width: 37.5em) {
     header {
-        padding top: 1em;
+        padding-top: 1em;
     }
     main {
         padding-top: 0.1em;
@@ -192,5 +192,5 @@ article {
     #trailhero {
         background-image: none;
         height: 0;
-    } 
+    }
 }
