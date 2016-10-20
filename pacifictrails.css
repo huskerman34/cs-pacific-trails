@@ -128,7 +128,7 @@ article {
     display: block;
 }
 @media only screen and (max-width: 64em) {
-    main {
+   body {
         background-color: #ffffff;
         margin: 0;
     }
