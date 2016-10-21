@@ -49,6 +49,10 @@ h1 {
 header {
     height: 60px;
     text-align: center;
+<<<<<<< HEAD
+=======
+    padding-top: 15px;
+>>>>>>> 6ed34c8124fb2eb208ecfb823c45c79ed91da44d
     font-family: sans-serif;
     color: #FFFFFF;
     background-color: #000033;
@@ -153,7 +157,11 @@ article {
 }
 
 @media only screen and (max-width: 64em) {
+<<<<<<< HEAD
     body {
+=======
+    main {
+>>>>>>> 6ed34c8124fb2eb208ecfb823c45c79ed91da44d
         background-color: #ffffff;
         margin: 0;
     }
@@ -185,7 +193,10 @@ article {
         height: 200px;
     }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6ed34c8124fb2eb208ecfb823c45c79ed91da44d
 @media only screen and (max-width: 37.5em) {
     header {
         padding-top: 1em;
@@ -216,6 +227,7 @@ article {
         background-image: none;
         height: 0;
     }
+<<<<<<< HEAD
 }
 
 #mobile {
@@ -224,4 +236,6 @@ article {
 
 #desktop {
     display: none;
+=======
+>>>>>>> 6ed34c8124fb2eb208ecfb823c45c79ed91da44d
 }
