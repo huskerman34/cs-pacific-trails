@@ -1,5 +1,4 @@
-
-body {
+            body {
     background-color: #4f6d93;
     background-image: linear-gradient(to bottom, #ffffff, #4f6d93);
     background-repeat: no-repeat;
@@ -49,10 +48,7 @@ h1 {
 header {
     height: 60px;
     text-align: center;
-<<<<<<< HEAD
-=======
     padding-top: 15px;
->>>>>>> 6ed34c8124fb2eb208ecfb823c45c79ed91da44d
     font-family: sans-serif;
     color: #FFFFFF;
     background-color: #000033;
@@ -156,14 +152,9 @@ article {
     display: block;
 }
 
-@media only screen and (max-width: 64em) {
-<<<<<<< HEAD
+@media only screen and (max-width:64em) {
     body {
-=======
-    main {
->>>>>>> 6ed34c8124fb2eb208ecfb823c45c79ed91da44d
         background-color: #ffffff;
-        margin: 0;
     }
     #wrapper {
         min-width: 0;
@@ -173,11 +164,20 @@ article {
     main {
         margin-left: 0;
     }
-    Nav {
+    nav {
         float: none;
         width: auto;
         text-align: center;
         padding: 0.5em;
+    }
+    #homehero,
+    yurtshero,
+    trailhero {
+        margin-left: 0;
+        height: 200px;
+    }
+    footer {
+        margin-left: 0;
     }
     nav li {
         display: inline;
@@ -186,27 +186,18 @@ article {
         padding-right: 0.75em;
         padding-left: 0.75em;
     }
-    #homehero,
-    #yurtshero,
-    #trailhero {
-        margin-left: 0;
-        height: 200px;
-    }
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 6ed34c8124fb2eb208ecfb823c45c79ed91da44d
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width:37.5em) {
     header {
         padding-top: 1em;
     }
     main {
         padding-top: 0.1em;
         padding-bottom: 0.1em;
+        font-size: 90%;
         padding-left: 1em;
         padding-right: 1em;
-        font-size: 90%;
     }
     h1 {
         font-size: 1.5em;
@@ -216,26 +207,17 @@ article {
     }
     nav li {
         display: block;
-        margin: 0;
-        border-bottom: 2px;
-        border-bottom-color: #330000;
-        border-bottom-style: solid;
     }
     #homehero,
-    #yurtshero,
-    #trailhero {
+  yurtshero,
+    trailhero {
         background-image: none;
         height: 0;
     }
-<<<<<<< HEAD
-}
-
-#mobile {
-    display: inline;
-}
-
-#desktop {
-    display: none;
-=======
->>>>>>> 6ed34c8124fb2eb208ecfb823c45c79ed91da44d
+    #mobile id {
+        display: inline;
+    }
+    #desktop id {
+        display: none;
+    }
 }
