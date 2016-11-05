@@ -263,3 +263,7 @@
           tr:nth-of-type(odd) {
               background-color: #F5FAFC;
           }
+label {float: left; display: block; text-align: right;width: 120px; padding-right:auto}
+input {display: block;margin-bottom: 20px;}
+textarea {display: block;margin-bottom: 20px;}
+input[type="submit"] {margin-left: 130px;}
