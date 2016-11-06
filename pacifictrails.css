@@ -80,9 +80,9 @@
              main {
                  background-color: #ffffff;
                  margin-left: 180px;
-                 padding-left: 0px;
-                 padding-top: 2px;
-                 padding-right: 0px;
+                 padding-left: 2x;
+                 padding-top: 1px;
+                 padding-right: 20px;
                  padding-bottom: 20px;
              }
              
@@ -101,21 +101,21 @@
                  background-image: url(images/coasthero.jpg);
                  height: 300px;
                  background-size: 100% 100%;
-                 background-repeat: no-repeat;
+                 background-repeat: no-repeat; margin-left: 
              }
              
              #yurthero {
                  background-image: url(images/yurthero.jpg);
                  height: 300px;
                  background-size: 100% 100%;
-                 background-repeat: no-repeat;
+                 background-repeat: no-repeat; margin-left: 
              }
              
              #trailhero {
                  background-image: url(images/trailhero.jpg);
                  height: 300px;
                  background-size: 100% 100%;
-                 background-repeat: no-repeat;
+                 background-repeat: no-repeat; margin-left: 
              }
              
              nav ul {
